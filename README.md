@@ -15,3 +15,5 @@ uvicorn main:app --reload
 
 ```
 
+### Images are stored in 
+`/static/img` 
