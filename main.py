@@ -34,7 +34,10 @@ async def home_page(request: Request, db: SessionLocal = Depends(get_db)):
 
     return templates.TemplateResponse("home/index.html", {"request": request})
 
+@app.get("/game")
+async def game_page(request: Request, db: SessionLocal = Depends(get_db)):
 
+    return templates.TemplateResponse("home/index.html", {"request": request})
 # app posts execution code here:
 
 
