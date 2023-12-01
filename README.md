@@ -1,5 +1,5 @@
 # Gotcha_project
-
+[![CI/CD Pipeline](https://github.com/Jverbist/Gotcha_project/actions/workflows/ci-cd.yml/badge.svg?branch=main)](https://github.com/Jverbist/Gotcha_project/actions/workflows/ci-cd.yml)
 ## Start by enabeling the virtual env
 ```
 source /env/bin/activate
